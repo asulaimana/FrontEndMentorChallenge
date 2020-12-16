@@ -1,0 +1,82 @@
+.card {
+    margin: 10% 10% 5% 10%;
+    box-shadow:  11px 11px 25px #d6d6d6a2, -11px -11px 25px #ffffff;
+}
+
+.card-text {
+    color: hsl(240, 38%, 20%);
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    text-align: left;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+#auth-name {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#auth-job {
+    color: hsl(240, 18%, 77%);
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.testimonial-container {
+    z-index: 2;
+    position: absolute;
+    width: 520px;
+    top: 30%;
+    left: 8%;
+}
+
+#pattern-quotes {
+    z-index: 0;
+    position: absolute;
+    top: 21%;
+    left: 17%;
+}
+
+#image-auth1, #image-auth2 {
+    z-index: 1;
+    position: absolute;
+    top: 13%;
+    left: 40%;
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+
+#pattern-bg {
+    z-index: 0;
+    position: absolute;
+    top: 5%;
+    left: 34%;
+}
+
+.btn-group {
+    z-index: 2;
+    position: absolute;
+    top: 107%;
+    left: 45%;
+    border-radius: 40%;
+}
+
+.btn {
+    width: 50px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
